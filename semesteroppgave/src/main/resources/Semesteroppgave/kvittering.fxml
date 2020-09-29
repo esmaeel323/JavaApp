@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="709.0" maxWidth="1023.0" minHeight="680.0" minWidth="1068.0" opacity="0.88" prefHeight="709.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Semesteroppgave.KvitteringController">
+   <children>
+      <Label fx:id="dato" layoutX="224.0" layoutY="13.0" prefHeight="35.0" prefWidth="169.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="18.0" prefHeight="30.0" prefWidth="59.0" text="Dato:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ListView fx:id="list" layoutX="292.0" layoutY="143.0" maxHeight="438.0" maxWidth="662.0" prefHeight="373.0" prefWidth="518.0" style="-fx-background-color: white; -fx-border-color: grey;" />
+      <Button fx:id="tilbake" alignment="CENTER" layoutX="504.0" layoutY="641.0" mnemonicParsing="false" onAction="#Tilbake" prefHeight="46.0" prefWidth="96.0" text="Hjem">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="kvittering" layoutX="461.0" layoutY="553.0" mnemonicParsing="false" onAction="#Kvittering" prefHeight="35.0" prefWidth="180.0" text="Lagre som kvittering">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="465.0" layoutY="66.0" text="Din ferdigbygde PC">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="103.0" text=" består av disse komponentene:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

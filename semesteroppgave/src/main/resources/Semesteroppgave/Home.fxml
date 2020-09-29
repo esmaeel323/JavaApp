@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="1068.0" style="-fx-background-color: #a1ccc9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Semesteroppgave.HomeController">
+   <!--<stylesheets>
+      <URL value="@./CSS/HomeStyle" />
+   </stylesheets>-->
+   <children>
+      <Label prefHeight="114.0" prefWidth="1068.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="admin" layoutX="847.0" layoutY="48.0" mnemonicParsing="false" onAction="#Admin" prefHeight="45.0" prefWidth="207.0" style="-fx-background-color: #a1ccc9; -fx-background-radius: 25; -fx-border-radius: 25;" text="Logg inn som Admin" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="48.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="214.0" layoutY="38.0" prefHeight="45.0" prefWidth="173.0" text="Velkommen til vår butikk!" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="213.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="46.0" layoutX="511.0" layoutY="211.0">
+         <!--  <image>
+              <Image url="@PIC/computerIcon.png" />
+           </image>-->
+      </ImageView>
+      <Button fx:id="komponenter11" contentDisplay="CENTER" layoutX="325.0" layoutY="243.0" mnemonicParsing="false" onAction="#ferdigPC" prefHeight="64.0" prefWidth="418.0" style="-fx-background-color: white;" text="Stasjonære PC-er" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="350.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="komponenter1" layoutX="350.0" layoutY="424.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#PcBuild" prefHeight="64.0" prefWidth="418.0" style="-fx-background-color: white;" text="Bygg din egen PC" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="350.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="komponenter" layoutX="350.0" layoutY="327.0" mnemonicParsing="false" onAction="#Komponenter" prefHeight="72.0" prefWidth="418.0" style="-fx-background-color: white;" text="Individuelle Komponenter" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="350.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
